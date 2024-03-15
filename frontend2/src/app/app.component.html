@@ -1,0 +1,15 @@
+
+<h2>app is runnig {{title}}</h2>
+
+<input type="text" [(ngModel)]="currentPostId" placeholder="Enter ID">
+<button (click)="getPost()">Submit</button>
+
+<ul class="list-unstyled navbar-list">
+
+  <li > {{post.title}}</li>
+  <li> {{post.body}}</li>
+  <li> {{post.userId}}</li>
+
+</ul>
+
+
